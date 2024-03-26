@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegram-send": "^1.0.0",
+    "viem": "^2.9.2",
+    "znv": "^0.4.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.3",
+    "@types/node": "^20.11.30",
+    "biome": "^0.3.3",
+    "tsx": "^4.7.1",
+    "typescript": "~5.4.3"
+  },
+  "scripts": {
+    "start": "tsx ./src/main.ts"
+  }
+}
